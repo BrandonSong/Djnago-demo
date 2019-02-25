@@ -11,7 +11,7 @@ class ChoiceInline(admin.TabularInline):
 
 class QuestionAdmin(admin.ModelAdmin):
     """ 问题模型的后台管理类 """
-    fields = ['pub_date', 'question_text']
+    # fields = ['pub_date', 'question_text']
 
     fieldsets = [
         (None, {'fields': ['question_text']}),

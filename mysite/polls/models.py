@@ -33,9 +33,6 @@ class Chiocce(models.Model):
 # class Car(models.Model):
 #     manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)  # 多对一的外键关系
 
-class Topping(models.Model):
-    pass
+# Making Queries
 
 
-class Pizza(models.Model):
-    toppings = models.ManyToManyField(Topping)
